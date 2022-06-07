@@ -31,7 +31,7 @@ const modals = () => {
 
   function modalTriggerByTime(modalSelector, triggerTime) {
     setTimeout(() => {
-      document.querySelector('.popup').style.display = 'block';
+      document.querySelector(modalSelector).style.display = 'block';
       document.body.overflow = 'hidden';
     }, triggerTime);
   }
