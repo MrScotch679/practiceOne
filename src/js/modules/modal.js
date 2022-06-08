@@ -38,7 +38,7 @@ const modals = () => {
 
   modalTrigger('.popup_engineer_btn', '.popup_engineer', '.popup_engineer .popup_close');
   modalTrigger('.phone_link', '.popup', '.popup .popup_close');
-  modalTriggerByTime('.poput', 61000);
+  modalTriggerByTime('.popup', 1000);
 };
 
 export default modals;
